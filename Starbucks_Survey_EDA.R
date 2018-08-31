@@ -304,7 +304,7 @@ starbucks_clv_app_plot <- ggplot(starbucks_clv, aes(x = clv, fill = app_segment)
        fill = "App Segment") +
   theme(legend.position = c(0.80, 0.80))
 print(starbucks_clv_app_plot)
-ggsave("fig_clv_app_usage_plot.png", starbucks_clv_app_plot)
+ggsave("plots/fig_clv_app_usage_plot.png", starbucks_clv_app_plot)
 
 # clv: app installed vs. not installed
 starbucks_clv_app_install_plot <- ggplot(starbucks_clv, aes(x = clv, fill = starbucks_app_installed)) +
