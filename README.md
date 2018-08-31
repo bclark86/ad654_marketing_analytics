@@ -2,4 +2,4 @@
 Code to analyze survey data for marketing analytics group project vizualizations
 
 Improvements:
-* Chart font needs to be increased for quicker understanding
+* The font for some of the plots need to be increased for quicker understanding
